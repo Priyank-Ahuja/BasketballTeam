@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		3828773E2C8F96A20015CA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828773D2C8F96A20015CA88 /* AppDelegate.swift */; };
 		382877402C8F96A20015CA88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828773F2C8F96A20015CA88 /* SceneDelegate.swift */; };
-		382877422C8F96A20015CA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382877412C8F96A20015CA88 /* ViewController.swift */; };
+		382877422C8F96A20015CA88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382877412C8F96A20015CA88 /* HomeViewController.swift */; };
 		382877452C8F96A20015CA88 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 382877442C8F96A20015CA88 /* Base */; };
 		382877472C8F96A50015CA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382877462C8F96A50015CA88 /* Assets.xcassets */; };
 		3828774A2C8F96A50015CA88 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 382877492C8F96A50015CA88 /* Base */; };
+		382877572C8F99420015CA88 /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382877552C8F99420015CA88 /* TeamListViewController.swift */; };
+		382877582C8F99420015CA88 /* TeamListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382877562C8F99420015CA88 /* TeamListViewController.xib */; };
+		3828775C2C8F99A10015CA88 /* StudentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828775A2C8F99A10015CA88 /* StudentCollectionViewCell.swift */; };
+		3828775D2C8F99A10015CA88 /* StudentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3828775B2C8F99A10015CA88 /* StudentCollectionViewCell.xib */; };
+		38954C982C8FD80300AACF08 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38954C962C8FD80300AACF08 /* AddStudentViewController.swift */; };
+		38954C992C8FD80300AACF08 /* AddStudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38954C972C8FD80300AACF08 /* AddStudentViewController.xib */; };
+		38954C9C2C8FE82500AACF08 /* BasketballTeam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38954C9A2C8FE82500AACF08 /* BasketballTeam.xcdatamodeld */; };
+		38954CC22C8FEBD200AACF08 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38954CC02C8FEBD200AACF08 /* Student+CoreDataClass.swift */; };
+		38954CC32C8FEBD200AACF08 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38954CC12C8FEBD200AACF08 /* Student+CoreDataProperties.swift */; };
+		38954CC72C8FEDB400AACF08 /* UIImageTransfomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38954CC62C8FEDB400AACF08 /* UIImageTransfomer.swift */; };
+		38C6321C2C93A8740072EF56 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6321B2C93A8740072EF56 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3828773A2C8F96A20015CA88 /* BasketballTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketballTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3828773D2C8F96A20015CA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3828773F2C8F96A20015CA88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		382877412C8F96A20015CA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		382877412C8F96A20015CA88 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		382877442C8F96A20015CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		382877462C8F96A50015CA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		382877492C8F96A50015CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3828774B2C8F96A50015CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382877552C8F99420015CA88 /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		382877562C8F99420015CA88 /* TeamListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamListViewController.xib; sourceTree = "<group>"; };
+		3828775A2C8F99A10015CA88 /* StudentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCollectionViewCell.swift; sourceTree = "<group>"; };
+		3828775B2C8F99A10015CA88 /* StudentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCollectionViewCell.xib; sourceTree = "<group>"; };
+		38954C962C8FD80300AACF08 /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		38954C972C8FD80300AACF08 /* AddStudentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStudentViewController.xib; sourceTree = "<group>"; };
+		38954C9B2C8FE82500AACF08 /* BasketballTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BasketballTeam.xcdatamodel; sourceTree = "<group>"; };
+		38954CC02C8FEBD200AACF08 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		38954CC12C8FEBD200AACF08 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		38954CC62C8FEDB400AACF08 /* UIImageTransfomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransfomer.swift; sourceTree = "<group>"; };
+		38C6321B2C93A8740072EF56 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,98 @@
 		3828773C2C8F96A20015CA88 /* BasketballTeam */ = {
 			isa = PBXGroup;
 			children = (
+				38C6321A2C93A8550072EF56 /* Extensions */,
+				38954CC42C8FEC0C00AACF08 /* CoreData */,
+				382877512C8F98F90015CA88 /* ViewControllers */,
+				382877592C8F99710015CA88 /* Views */,
 				3828773D2C8F96A20015CA88 /* AppDelegate.swift */,
 				3828773F2C8F96A20015CA88 /* SceneDelegate.swift */,
-				382877412C8F96A20015CA88 /* ViewController.swift */,
 				382877432C8F96A20015CA88 /* Main.storyboard */,
 				382877462C8F96A50015CA88 /* Assets.xcassets */,
 				382877482C8F96A50015CA88 /* LaunchScreen.storyboard */,
 				3828774B2C8F96A50015CA88 /* Info.plist */,
 			);
 			path = BasketballTeam;
+			sourceTree = "<group>";
+		};
+		382877512C8F98F90015CA88 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				382877542C8F99210015CA88 /* AddStudent */,
+				382877532C8F991A0015CA88 /* Home */,
+				382877522C8F990A0015CA88 /* TeamList */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		382877522C8F990A0015CA88 /* TeamList */ = {
+			isa = PBXGroup;
+			children = (
+				382877552C8F99420015CA88 /* TeamListViewController.swift */,
+				382877562C8F99420015CA88 /* TeamListViewController.xib */,
+			);
+			path = TeamList;
+			sourceTree = "<group>";
+		};
+		382877532C8F991A0015CA88 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				382877412C8F96A20015CA88 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		382877542C8F99210015CA88 /* AddStudent */ = {
+			isa = PBXGroup;
+			children = (
+				38954C962C8FD80300AACF08 /* AddStudentViewController.swift */,
+				38954C972C8FD80300AACF08 /* AddStudentViewController.xib */,
+			);
+			path = AddStudent;
+			sourceTree = "<group>";
+		};
+		382877592C8F99710015CA88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3828775E2C8F99AD0015CA88 /* StudentCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3828775E2C8F99AD0015CA88 /* StudentCell */ = {
+			isa = PBXGroup;
+			children = (
+				3828775A2C8F99A10015CA88 /* StudentCollectionViewCell.swift */,
+				3828775B2C8F99A10015CA88 /* StudentCollectionViewCell.xib */,
+			);
+			path = StudentCell;
+			sourceTree = "<group>";
+		};
+		38954CC42C8FEC0C00AACF08 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				38954C9A2C8FE82500AACF08 /* BasketballTeam.xcdatamodeld */,
+				38954CC52C8FEC9600AACF08 /* Model */,
+				38954CC62C8FEDB400AACF08 /* UIImageTransfomer.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		38954CC52C8FEC9600AACF08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38954CC02C8FEBD200AACF08 /* Student+CoreDataClass.swift */,
+				38954CC12C8FEBD200AACF08 /* Student+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C6321A2C93A8550072EF56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38C6321B2C93A8740072EF56 /* CustomButton.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38954C992C8FD80300AACF08 /* AddStudentViewController.xib in Resources */,
 				382877472C8F96A50015CA88 /* Assets.xcassets in Resources */,
+				3828775D2C8F99A10015CA88 /* StudentCollectionViewCell.xib in Resources */,
+				382877582C8F99420015CA88 /* TeamListViewController.xib in Resources */,
 				3828774A2C8F96A50015CA88 /* Base in Resources */,
 				382877452C8F96A20015CA88 /* Base in Resources */,
 			);
@@ -138,7 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382877422C8F96A20015CA88 /* ViewController.swift in Sources */,
+				3828775C2C8F99A10015CA88 /* StudentCollectionViewCell.swift in Sources */,
+				38954C9C2C8FE82500AACF08 /* BasketballTeam.xcdatamodeld in Sources */,
+				38954CC72C8FEDB400AACF08 /* UIImageTransfomer.swift in Sources */,
+				382877422C8F96A20015CA88 /* HomeViewController.swift in Sources */,
+				38954CC22C8FEBD200AACF08 /* Student+CoreDataClass.swift in Sources */,
+				38954CC32C8FEBD200AACF08 /* Student+CoreDataProperties.swift in Sources */,
+				38954C982C8FD80300AACF08 /* AddStudentViewController.swift in Sources */,
+				38C6321C2C93A8740072EF56 /* CustomButton.swift in Sources */,
+				382877572C8F99420015CA88 /* TeamListViewController.swift in Sources */,
 				3828773E2C8F96A20015CA88 /* AppDelegate.swift in Sources */,
 				382877402C8F96A20015CA88 /* SceneDelegate.swift in Sources */,
 			);
@@ -363,6 +479,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38954C9A2C8FE82500AACF08 /* BasketballTeam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38954C9B2C8FE82500AACF08 /* BasketballTeam.xcdatamodel */,
+			);
+			currentVersion = 38954C9B2C8FE82500AACF08 /* BasketballTeam.xcdatamodel */;
+			path = BasketballTeam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 382877322C8F96A20015CA88 /* Project object */;
 }
